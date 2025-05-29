@@ -1,11 +1,11 @@
 # Locuteur-Identification
 
-# 🔊 Projet : Identification et Vérification du Locuteur
+# Projet : Identification et Vérification du Locuteur
 
 Ce projet implémente un système d'identification et de vérification du locuteur basé sur des enregistrements audio, utilisant des **Modèles de Mélange Gaussien (GMM)** et des **coefficients MFCC**. Deux méthodes de prétraitement vocal sont comparées : **WebRTC VAD** et **Librosa Split**. 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
 - Mettre en œuvre un système d'identification et de vérification basé sur la voix.
 - Comparer deux techniques de suppression du silence (WebRTC VAD vs. Librosa).
@@ -14,7 +14,7 @@ Ce projet implémente un système d'identification et de vérification du locute
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **23 locuteurs** : 13 femmes (F1–F13), 10 hommes (H1–H10)
 - **Entraînement** : 1 fichier de 2 minutes par locuteur
@@ -22,7 +22,7 @@ Ce projet implémente un système d'identification et de vérification du locute
 
 ---
 
-## 🧰 Outils et bibliothèques utilisés
+## Outils et bibliothèques utilisés
 
 - `Python 3.x`
 - `librosa` – traitement du signal audio
@@ -35,7 +35,7 @@ Ce projet implémente un système d'identification et de vérification du locute
 
 ---
 
-## 🔁 Pipeline de traitement
+## Pipeline de traitement
 
 ```text
 1. Chargement des fichiers audio (16 kHz)
