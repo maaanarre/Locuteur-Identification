@@ -40,8 +40,8 @@ Ce projet implémente un système d'identification et de vérification du locute
 ```text
 1. Chargement des fichiers audio (16 kHz)
 2. Suppression des silences :
-   a. WebRTC VAD (trames 30 ms, PCM 16 bits)
-   b. Librosa Split (top_db = 30)
+   a. WebRTC VAD (trames 30 ms, PCM 16 bits) ( le code intitulé RL-VAD)
+   b. Librosa Split (top_db = 30)  ( le code intitulé RL-librosa)
 3. Extraction MFCCs
 4. Entraînement GMM (8 à 256 gaussiennes)
 5. Identification & Vérification
